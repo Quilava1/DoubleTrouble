@@ -4,7 +4,7 @@ This mod is good for when playing in groups that travel and play together, allow
 
 This script only handles cells on the first visit, resetting if the cell file was not present on server startup.  
 That means, that only cell reset scripts that actually remove cell files will cause creatures to be re-duplicated.  
-One such script is my own [CellReset](https://github.com/tes3mp-scripts/CellReset).
+One such script is [CellReset](https://github.com/tes3mp-scripts/CellReset).
 
 Requires [DataManager](https://github.com/tes3mp-scripts/DataManager)!
 
