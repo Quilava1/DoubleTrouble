@@ -52,12 +52,12 @@ function DoubleTrouble.duplicate(cellDescription)
 
         for _, uniqueIndex in pairs(creatures) do
             local creature = cellData.objectData[uniqueIndex]
-
+            creature.scale = 1
             tes3mp.LogMessage(enumerations.log.INFO, creature.refId)
 
             local copies = DoubleTrouble.getCopies()
             for i=2, copies do
-                logicHandler.CreateObjectAtLocation(cellDescription, creature.location, creature.refId, "spawn")
+                logicHandler.CreateObjectAtLocation(cellDescription, creature.location, creature, "spawn")
             end
         end
     end
