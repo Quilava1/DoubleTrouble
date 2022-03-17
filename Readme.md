@@ -1,3 +1,7 @@
+This fork fixes the script to work with the new Logic handler for lua scripts.
+
+This mod is good for when playing in groups that travel and play together, allowing for encounters to be scaled up for multiple players.
+
 This script only handles cells on the first visit, resetting if the cell file was not present on server startup.  
 That means, that only cell reset scripts that actually remove cell files will cause creatures to be re-duplicated.  
 One such script is my own [CellReset](https://github.com/tes3mp-scripts/CellReset).
